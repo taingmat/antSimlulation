@@ -1,6 +1,6 @@
 def initPherGrid(n, MAXPHER):
     import numpy as np
-    site = np.empty((n+2),(n+2))
+    site = np.empty((n+2,n+2))
     
     site[:,0]  = 0 #- Border
     site[:,-1] = 0 #- Border

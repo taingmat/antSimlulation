@@ -1,6 +1,6 @@
 def initAntGrid(n, probAnt):
     import numpy as np
-    site = np.empty((n+2),(n+2))
+    site = np.empty((n+2,n+2))
     direction = [1,2,3,4] # N, E, S, W
     
     site[:,0] = 6 #- Border
